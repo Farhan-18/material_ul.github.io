@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <title>Succes Project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body id="Home">
+    <!-- Navigasi -->
+    <div class="navbar-fixed">
+      <nav class="blue darken-2 white-text">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Hann</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a class="btn blue tombol" href="">Contact me</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a class="btn blue tombol" href="#contact">Contact me</a></li>
+    </ul>
+
+    <!-- slider  -->
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="./img/Slider_profile_2.jpg" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/Slider_profile_3.jpg" />
+          <!-- random image -->
+          <div class="caption left-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/Slider_profile_4.jpg" />
+          <!-- random image -->
+          <div class="caption right-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- about me -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <h3>Tentang saya</h3>
+          <div class="col m6 s12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quidem amet architecto beatae porro ipsam expedita aliquid ratione voluptatum deleniti.</p>
+          </div>
+          <div class="col m6 s12">
+            <p>Front End Developer</p>
+            <div class="progress">
+              <div class="determinate" style="width: 90%"></div>
+            </div>
+            <p>Back end developer</p>
+            <div class="progress">
+              <div class="determinate" style="width: 68%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery grey lighten-3">
+      <div class="container">
+        <div class="row">
+          <h3 class="center">Gallery</h3>
+          <div class="col m4 s12">
+            <div class="card">
+              <div class="card-image">
+                <img src="./img/Sertifikat.png" class="materialboxed" />
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card">
+              <div class="card-image">
+                <img src="./img/sertifikat2.png" class="materialboxed" />
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card">
+              <div class="card-image">
+                <img src="./img/sertifikat3.png" class="materialboxed" />
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- paralax -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./img/Landing.jpg" alt="" />
+      </div>
+    </div>
+    <!-- contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col m s12">
+            <div class="card-panel">
+              <h3>Hubungi kami</h3>
+              <div class="row">
+                <div class="col s12">
+                  <div class="row">
+                    <div class="input-field">
+                      <i class="material-icons prefix">email</i>
+                      <input type="email" id="autocomplete-input" class="validate" />
+                      <label for="autocomplete-input">Alamat email</label>
+                    </div>
+                    <div class="input-field">
+                      <i class="material-icons prefix">call</i>
+                      <input type="text" id="autocomplete-input" class="autocomplete" />
+                      <label for="autocomplete-input">Phone number</label>
+                    </div>
+                    <div class="input-field">
+                      <i class="material-icons prefix">edit</i>
+                      <input type="text" id="autocomplete-input" class="autocomplete" />
+                      <label for="autocomplete-input">Pesan</label>
+                    </div>
+                    <i class="material-icons prefix done">done</i>
+                    <button type="submit">Kirimkan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="blue darken-2 white-text center">
+      <p>Powered By Hann 2021</p>
+      <p>
+        <a href="https://www.facebook.com/profile.php?id=100057354857498" class="blue darken-2 black-text center">Hubungi kami</a>
+      </p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
